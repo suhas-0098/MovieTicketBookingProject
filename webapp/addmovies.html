@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JFSD SKLLING-4</title>
+
+<style>
+a:link {
+  
+  letter-spacing:2px;
+  
+  font-family:sanf-serif;
+  
+  
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body style="background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);">
+
+<header>
+<h1  style="font-family:sans-serif; text-align:center; color:white; letter-spacing:2px;">Online Movie Ticket Booking System</h1>
+
+<br>
+<br>
+<br>
+<br>
+<a href="superadminhome.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a href="addtheatre.html">Add Theater</a>&nbsp;&nbsp;&nbsp;
+<a href="addmanager">Add Manager</a>&nbsp;&nbsp;&nbsp;
+<a href="addmovies.html">Add Movies </a>&nbsp;&nbsp;&nbsp;
+<a href="viewcustomer">View Customer</a>&nbsp;&nbsp;&nbsp;
+<a href="logout.html">Logout</a>&nbsp;
+
+</header>
+<br>
+<br>
+
+
+<main>
+
+<h1 style="color:white;font-family:sans-serif; text-align:center;">Add Movie</h1>
+<br>
+<br>
+<center>
+<form  method="post" action="addmovie">
+<fieldset style="width:400px;height:500px;">
+<table>
+
+<tr>
+<td><input type="text" name="name" placeholder="Movie Name" required></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td>
+Select Language &nbsp;&nbsp;
+<select name="language" required multiple>
+<option value="Telugu">Telugu</option>
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+
+
+</select>
+
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+
+<tr>
+<td>
+Genre : &nbsp;&nbsp;
+<select name="genre" required>
+<option value="">--Select---</option>
+<option value="Thriller">Thriller</option>
+<option value="Drama">Drama</option>
+<option value="Action">Action</option>
+<option value="Comedy">Comedy</option>
+
+
+
+
+</select>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td><input type="text" name="director" placeholder="Director" required></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td><input type="text" name="producer" placeholder="Producer" required></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td><input type="text" name="cast" placeholder="Provide Cast" required></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td>
+Release Date:<input type="date" name="rdate" placeholder="Release Date" required></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td>
+<select name="cbrating" required>
+<option value="">--Select--</option>
+<option value="U">U</option>
+<option value="A">A</option>
+<option value="U/A">U/A</option>
+
+</select>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+<tr>
+<td>
+<input type="submit" value="add">
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+
+
+</table>
+</fieldset>
+</form>
+
+</center>
+
+</main>
+</body>
+</html>
